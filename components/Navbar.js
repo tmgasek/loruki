@@ -8,8 +8,6 @@ export default function Navbar({ title }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      {/* NAVBAR */}
-
       <div className="navbar">
         <div className="container flex">
           <h1 className="logo">Loruki</h1>
