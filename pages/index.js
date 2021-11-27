@@ -1,35 +1,10 @@
-import Head from 'next/head';
+import Navbar from '../components/Navbar';
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Loruki</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-
-      {/* NAVBAR */}
-
-      <div className="navbar">
-        <div className="container flex">
-          <h1 className="logo">Loruki</h1>
-          <nav>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Features</a>
-              </li>
-              <li>
-                <a href="#">Docs</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-
+      <Navbar title="home" />
       {/* SHOWCASE */}
       <section className="showcase">
         <div className="container grid">
