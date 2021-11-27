@@ -14,4 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Description
 
-This is a simple website made to practice responvive web design and media queries.
+This is a simple website made to practice responsive web design and media queries.
