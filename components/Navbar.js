@@ -1,3 +1,4 @@
+import NextLink from 'next/link';
 import Head from 'next/head';
 
 export default function Navbar({ title }) {
@@ -14,13 +15,19 @@ export default function Navbar({ title }) {
           <nav>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <NextLink href="/">
+                  <a>Home</a>
+                </NextLink>
               </li>
               <li>
-                <a href="#">Features</a>
+                <NextLink href="/features">
+                  <a href="#">Features</a>
+                </NextLink>
               </li>
               <li>
-                <a href="#">Docs</a>
+                <NextLink href="/docs">
+                  <a href="#">Docs</a>
+                </NextLink>
               </li>
             </ul>
           </nav>
